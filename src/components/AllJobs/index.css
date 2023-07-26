@@ -143,4 +143,65 @@
   border-right: none;
   height: 40px;
   width: 50%;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.search-button {
+  height: 40px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 35px;
+  cursor: pointer;
+  border: 0;
+  background-color: #202020;
+}
+
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.no-jobs-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.no-jobs-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 767px) {
+  .all-jobs-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .side-bar-container {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .jobs-container {
+    width: 100%;
+  }
+
+  .ul-job-items-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .failure-img {
+    width: 85%;
+    height: 85%;
+  }
 }
